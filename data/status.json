@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-06-11T09:15:28.189Z",
+  "checkedAt": "2026-06-11T12:57:54.214Z",
   "incidentStart": "2026-06-02T13:54:00Z",
   "summary": {
     "endpointsUp": 5,
@@ -16,12 +16,12 @@
       "label": "API Root",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10004,
+      "responseMs": 10002,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-06-11T09:13:24.146Z"
+      "checkedAt": "2026-06-11T12:55:39.317Z"
     },
     {
       "id": "api-v1",
@@ -29,12 +29,12 @@
       "label": "API /v1",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10001,
+      "responseMs": 10000,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-06-11T09:13:24.218Z"
+      "checkedAt": "2026-06-11T12:55:39.395Z"
     },
     {
       "id": "api-v1-account",
@@ -47,7 +47,7 @@
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-06-11T09:13:24.220Z"
+      "checkedAt": "2026-06-11T12:55:39.397Z"
     },
     {
       "id": "api-v1-server",
@@ -60,7 +60,7 @@
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-06-11T09:13:24.221Z"
+      "checkedAt": "2026-06-11T12:55:39.399Z"
     },
     {
       "id": "api-v1-auth",
@@ -73,7 +73,7 @@
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-06-11T09:13:24.222Z"
+      "checkedAt": "2026-06-11T12:55:39.399Z"
     },
     {
       "id": "cp",
@@ -81,12 +81,12 @@
       "label": "CP (Status Page)",
       "category": "panel",
       "httpCode": 200,
-      "responseMs": 560,
+      "responseMs": 579,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title data-i18n=\"meta.title\">Service availability notice</title>\n  <meta name=\"description\" content=\"Client notice regarding temporary unavailability of some servers in Data Center 2.\" data-i18n-attr=\"content:meta.description\" />\n  <style>\n    :root {\n      --bg: #f3f7fb;\n      --bg-2: #eaf2fb;\n      --card: #ffffff;\n      --text: #1e2a36;\n      --muted: ",
       "error": null,
-      "checkedAt": "2026-06-11T09:13:14.786Z"
+      "checkedAt": "2026-06-11T12:55:29.985Z"
     },
     {
       "id": "cp-login",
@@ -94,12 +94,12 @@
       "label": "CP Login",
       "category": "panel",
       "httpCode": 200,
-      "responseMs": 695,
+      "responseMs": 657,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title data-i18n=\"meta.title\">Service availability notice</title>\n  <meta name=\"description\" content=\"Client notice regarding temporary unavailability of some servers in Data Center 2.\" data-i18n-attr=\"content:meta.description\" />\n  <style>\n    :root {\n      --bg: #f3f7fb;\n      --bg-2: #eaf2fb;\n      --card: #ffffff;\n      --text: #1e2a36;\n      --muted: ",
       "error": null,
-      "checkedAt": "2026-06-11T09:13:14.919Z"
+      "checkedAt": "2026-06-11T12:55:30.058Z"
     },
     {
       "id": "panel",
@@ -107,12 +107,12 @@
       "label": "Panel",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 130,
+      "responseMs": 49,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.354Z"
+      "checkedAt": "2026-06-11T12:55:29.450Z"
     },
     {
       "id": "my",
@@ -120,12 +120,12 @@
       "label": "My (LK)",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 148,
+      "responseMs": 49,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.373Z"
+      "checkedAt": "2026-06-11T12:55:29.451Z"
     },
     {
       "id": "bill",
@@ -133,12 +133,12 @@
       "label": "Billing",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 144,
+      "responseMs": 82,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.370Z"
+      "checkedAt": "2026-06-11T12:55:29.486Z"
     },
     {
       "id": "support",
@@ -146,12 +146,12 @@
       "label": "Support",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 153,
+      "responseMs": 48,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.380Z"
+      "checkedAt": "2026-06-11T12:55:29.452Z"
     },
     {
       "id": "status",
@@ -159,12 +159,12 @@
       "label": "Status (Official)",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 165,
+      "responseMs": 49,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.393Z"
+      "checkedAt": "2026-06-11T12:55:29.455Z"
     },
     {
       "id": "docs",
@@ -172,12 +172,12 @@
       "label": "Docs",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 161,
+      "responseMs": 51,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.390Z"
+      "checkedAt": "2026-06-11T12:55:29.458Z"
     },
     {
       "id": "auth",
@@ -185,12 +185,12 @@
       "label": "Auth",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 175,
+      "responseMs": 53,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.405Z"
+      "checkedAt": "2026-06-11T12:55:29.461Z"
     },
     {
       "id": "www",
@@ -198,12 +198,12 @@
       "label": "WWW (Main)",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 777,
+      "responseMs": 598,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Cloud VPS/VDS servers with Windows and Linux for any task. All functions in one click: reboot, install OS, manage VDS servers. Instant activation of ordered services.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/apple",
       "error": null,
-      "checkedAt": "2026-06-11T09:13:15.009Z"
+      "checkedAt": "2026-06-11T12:55:30.009Z"
     },
     {
       "id": "vdsina-ru",
@@ -211,12 +211,12 @@
       "label": "VDSina.ru",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 1040,
+      "responseMs": 1055,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"ru\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Облачные VPS/VDS серверы c Windows и Linux для любых задач. Все функции в один клик: перезагружайте, устанавливайте ОС, управляйте VDS серверами. Мгновенная активация заказанных услуг.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152",
       "error": null,
-      "checkedAt": "2026-06-11T09:13:15.273Z"
+      "checkedAt": "2026-06-11T12:55:30.467Z"
     },
     {
       "id": "panel-ru",
@@ -224,12 +224,12 @@
       "label": "Panel .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 3254,
+      "responseMs": 3023,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:17.487Z"
+      "checkedAt": "2026-06-11T12:55:32.434Z"
     },
     {
       "id": "my-ru",
@@ -237,12 +237,12 @@
       "label": "My .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 593,
+      "responseMs": 428,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T09:13:14.826Z"
+      "checkedAt": "2026-06-11T12:55:29.840Z"
     },
     {
       "id": "api-ru",
@@ -250,12 +250,12 @@
       "label": "API .ru",
       "category": "api",
       "httpCode": 302,
-      "responseMs": 1251,
+      "responseMs": 1054,
       "up": true,
       "redirect": "https://vdsina.ru/",
       "bodySnippet": "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
       "error": null,
-      "checkedAt": "2026-06-11T09:13:15.485Z"
+      "checkedAt": "2026-06-11T12:55:30.466Z"
     }
   ],
   "dns": [
@@ -333,7 +333,7 @@
     "v4Ips": 94208,
     "visibility": 327,
     "totalPeers": 327,
-    "checkedAt": "2026-06-11T09:13:29.922Z",
+    "checkedAt": "2026-06-11T12:55:54.762Z",
     "error": null
   },
   "dcHealth": {
@@ -346,7 +346,7 @@
     "dc3": {
       "46.151.26.1": false,
       "109.107.170.1": false,
-      "89.124.94.90": true,
+      "89.124.94.90": false,
       "77.246.102.1": false
     },
     "mixed": {
@@ -366,6 +366,6 @@
         "text": "Клиентские серверы, ранее размещенные в Датацентре 3, полностью запущены и доступны. Временные ограничения на некоторое время могут сохраняться только для внешних HDD-дисков и системы создания резервных копий. Также продолжаются работы по восстановлению функционирования панели управления. Мы будем публиковать обновления по мере появления подтвержденной информации."
       }
     ],
-    "lastParsed": "2026-06-11T09:13:30.399Z"
+    "lastParsed": "2026-06-11T12:55:55.236Z"
   }
 }
