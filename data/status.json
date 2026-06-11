@@ -1,13 +1,13 @@
 {
-  "checkedAt": "2026-06-11T16:47:37.655Z",
+  "checkedAt": "2026-06-11T19:28:36.054Z",
   "incidentStart": "2026-06-02T13:54:00Z",
   "summary": {
     "endpointsUp": 5,
     "endpointsTotal": 19,
     "dnsResolved": 3,
     "dnsTotal": 10,
-    "bgpV4Prefixes": 368,
-    "bgpV6Prefixes": 3
+    "bgpV4Prefixes": 0,
+    "bgpV6Prefixes": 0
   },
   "endpoints": [
     {
@@ -15,65 +15,65 @@
       "url": "https://api.vdsina.com/",
       "label": "API Root",
       "category": "api",
-      "httpCode": 403,
-      "responseMs": 625,
+      "httpCode": 401,
+      "responseMs": 720,
       "up": false,
       "redirect": null,
-      "bodySnippet": "<html>\r\n<head><title>403 Blocked</title></head>\r\n<body>\r\n<center><h1>403 Blocked</h1></center>\r\n<center><h4></h4></center>\r\n<center>api.vdsina.com, 11/Jun/2026:19:45:29 +0300</center>\r\n<p></p>\r\n<center>IP: 52.159.247.176 (country code: US)</center>\r\n<p></p>\r\n<center>UserId: b0f79f34-1a28e690-16765d92</center>\r\n<p></p>\r\n<center>Code: 7b1aced0d45b75ce4cb5a3070a8e9145</center>\r\n</html>",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Unauthorized\",\"content\":\"\",\"timestamp\":1781205984.8080809}",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.155Z"
+      "checkedAt": "2026-06-11T19:26:24.915Z"
     },
     {
       "id": "api-v1",
       "url": "https://api.vdsina.com/v1",
       "label": "API /v1",
       "category": "api",
-      "httpCode": 403,
-      "responseMs": 537,
+      "httpCode": 404,
+      "responseMs": 561,
       "up": false,
       "redirect": null,
-      "bodySnippet": "<html>\r\n<head><title>403 Blocked</title></head>\r\n<body>\r\n<center><h1>403 Blocked</h1></center>\r\n<center><h4></h4></center>\r\n<center>api.vdsina.com, 11/Jun/2026:19:45:29 +0300</center>\r\n<p></p>\r\n<center>IP: 52.159.247.176 (country code: US)</center>\r\n<p></p>\r\n<center>UserId: b0f79f34-1a28e690-16765d92</center>\r\n<p></p>\r\n<center>Code: e63feab392acada4e3dde902a3053e10</center>\r\n</html>",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1781205984.7278471}",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.149Z"
+      "checkedAt": "2026-06-11T19:26:24.808Z"
     },
     {
       "id": "api-v1-account",
       "url": "https://api.vdsina.com/v1/account",
       "label": "API /v1/account",
       "category": "api",
-      "httpCode": 403,
-      "responseMs": 540,
+      "httpCode": 404,
+      "responseMs": 640,
       "up": false,
       "redirect": null,
-      "bodySnippet": "<html>\r\n<head><title>403 Blocked</title></head>\r\n<body>\r\n<center><h1>403 Blocked</h1></center>\r\n<center><h4></h4></center>\r\n<center>api.vdsina.com, 11/Jun/2026:19:45:29 +0300</center>\r\n<p></p>\r\n<center>IP: 52.159.247.176 (country code: US)</center>\r\n<p></p>\r\n<center>UserId: b0f79f34-1a28e690-16765d92</center>\r\n<p></p>\r\n<center>Code: b9e4d051aef7bf789dc2551a4038f455</center>\r\n</html>",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1781205984.78321}",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.150Z"
+      "checkedAt": "2026-06-11T19:26:24.888Z"
     },
     {
       "id": "api-v1-server",
       "url": "https://api.vdsina.com/v1/server",
       "label": "API /v1/server",
       "category": "api",
-      "httpCode": 403,
-      "responseMs": 540,
+      "httpCode": 404,
+      "responseMs": 562,
       "up": false,
       "redirect": null,
-      "bodySnippet": "<html>\r\n<head><title>403 Blocked</title></head>\r\n<body>\r\n<center><h1>403 Blocked</h1></center>\r\n<center><h4></h4></center>\r\n<center>api.vdsina.com, 11/Jun/2026:19:45:29 +0300</center>\r\n<p></p>\r\n<center>IP: 52.159.247.176 (country code: US)</center>\r\n<p></p>\r\n<center>UserId: b0f79f34-1a28e690-16765d92</center>\r\n<p></p>\r\n<center>Code: 3bc549906365e6115144a1101e02685a</center>\r\n</html>",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1781205984.712307}",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.151Z"
+      "checkedAt": "2026-06-11T19:26:24.811Z"
     },
     {
       "id": "api-v1-auth",
       "url": "https://api.vdsina.com/v1/auth",
       "label": "API /v1/auth",
       "category": "api",
-      "httpCode": 403,
-      "responseMs": 540,
+      "httpCode": 404,
+      "responseMs": 676,
       "up": false,
       "redirect": null,
-      "bodySnippet": "<html>\r\n<head><title>403 Blocked</title></head>\r\n<body>\r\n<center><h1>403 Blocked</h1></center>\r\n<center><h4></h4></center>\r\n<center>api.vdsina.com, 11/Jun/2026:19:45:29 +0300</center>\r\n<p></p>\r\n<center>IP: 52.159.247.176 (country code: US)</center>\r\n<p></p>\r\n<center>UserId: b0f79f34-1a28e690-16765d92</center>\r\n<p></p>\r\n<center>Code: b2194c9892f96ab2b2b37d49ba103ada</center>\r\n</html>",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1781205984.82271}",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.152Z"
+      "checkedAt": "2026-06-11T19:26:24.925Z"
     },
     {
       "id": "cp",
@@ -81,12 +81,12 @@
       "label": "CP (Status Page)",
       "category": "panel",
       "httpCode": 200,
-      "responseMs": 690,
+      "responseMs": 561,
       "up": true,
       "redirect": null,
-      "bodySnippet": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title data-i18n=\"meta.title\">Service availability notice</title>\n  <meta name=\"description\" content=\"Client notice regarding temporary unavailability of some servers in Data Center 2.\" data-i18n-attr=\"content:meta.description\" />\n  <style>\n    :root {\n      --bg: #f3f7fb;\n      --bg-2: #eaf2fb;\n      --card: #ffffff;\n      --text: #1e2a36;\n      --muted: ",
+      "bodySnippet": "<html><head><meta name=\"robots\" content=\"noindex, noarchive\" /><style>.gorizontal-vertikal {position: absolute;margin: auto;top: 0;right: 0;bottom: 0;left: 0;width: 66px;height: 66px;}</style></head>\n<body><div class=\"gorizontal-vertikal\"><img src=\"data:image/gif;base64,R0lGODlhQgBCAPMAAP///wAAAExMTHp6etzc3KCgoPj4+BwcHMLCwgAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAQgBCAAAE/xDISau9VBzMu/8VcRTWsVXFYYBsS4knZZYH4d6gYdpyLMErnBAwGFg0p",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.306Z"
+      "checkedAt": "2026-06-11T19:26:24.811Z"
     },
     {
       "id": "cp-login",
@@ -94,12 +94,12 @@
       "label": "CP Login",
       "category": "panel",
       "httpCode": 200,
-      "responseMs": 648,
+      "responseMs": 552,
       "up": true,
       "redirect": null,
-      "bodySnippet": "<!doctype html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"utf-8\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n  <title data-i18n=\"meta.title\">Service availability notice</title>\n  <meta name=\"description\" content=\"Client notice regarding temporary unavailability of some servers in Data Center 2.\" data-i18n-attr=\"content:meta.description\" />\n  <style>\n    :root {\n      --bg: #f3f7fb;\n      --bg-2: #eaf2fb;\n      --card: #ffffff;\n      --text: #1e2a36;\n      --muted: ",
+      "bodySnippet": "<html><head><meta name=\"robots\" content=\"noindex, noarchive\" /><style>.gorizontal-vertikal {position: absolute;margin: auto;top: 0;right: 0;bottom: 0;left: 0;width: 66px;height: 66px;}</style></head>\n<body><div class=\"gorizontal-vertikal\"><img src=\"data:image/gif;base64,R0lGODlhQgBCAPMAAP///wAAAExMTHp6etzc3KCgoPj4+BwcHMLCwgAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAQgBCAAAE/xDISau9VBzMu/8VcRTWsVXFYYBsS4knZZYH4d6gYdpyLMErnBAwGFg0p",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.265Z"
+      "checkedAt": "2026-06-11T19:26:24.805Z"
     },
     {
       "id": "panel",
@@ -107,12 +107,12 @@
       "label": "Panel",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 96,
+      "responseMs": 126,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.711Z"
+      "checkedAt": "2026-06-11T19:26:24.377Z"
     },
     {
       "id": "my",
@@ -120,12 +120,12 @@
       "label": "My (LK)",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 98,
+      "responseMs": 106,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.714Z"
+      "checkedAt": "2026-06-11T19:26:24.358Z"
     },
     {
       "id": "bill",
@@ -133,12 +133,12 @@
       "label": "Billing",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 104,
+      "responseMs": 150,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.722Z"
+      "checkedAt": "2026-06-11T19:26:24.403Z"
     },
     {
       "id": "support",
@@ -146,12 +146,12 @@
       "label": "Support",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 126,
+      "responseMs": 161,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.745Z"
+      "checkedAt": "2026-06-11T19:26:24.414Z"
     },
     {
       "id": "status",
@@ -159,12 +159,12 @@
       "label": "Status (Official)",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 136,
+      "responseMs": 161,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.756Z"
+      "checkedAt": "2026-06-11T19:26:24.415Z"
     },
     {
       "id": "docs",
@@ -172,12 +172,12 @@
       "label": "Docs",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 126,
+      "responseMs": 181,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.747Z"
+      "checkedAt": "2026-06-11T19:26:24.436Z"
     },
     {
       "id": "auth",
@@ -185,12 +185,12 @@
       "label": "Auth",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 166,
+      "responseMs": 181,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:28.788Z"
+      "checkedAt": "2026-06-11T19:26:24.436Z"
     },
     {
       "id": "www",
@@ -198,12 +198,12 @@
       "label": "WWW (Main)",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 682,
+      "responseMs": 840,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Cloud VPS/VDS servers with Windows and Linux for any task. All functions in one click: reboot, install OS, manage VDS servers. Instant activation of ordered services.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/apple",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.307Z"
+      "checkedAt": "2026-06-11T19:26:25.098Z"
     },
     {
       "id": "vdsina-ru",
@@ -211,12 +211,12 @@
       "label": "VDSina.ru",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 1185,
+      "responseMs": 1020,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"ru\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Облачные VPS/VDS серверы c Windows и Linux для любых задач. Все функции в один клик: перезагружайте, устанавливайте ОС, управляйте VDS серверами. Мгновенная активация заказанных услуг.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.810Z"
+      "checkedAt": "2026-06-11T19:26:25.277Z"
     },
     {
       "id": "panel-ru",
@@ -224,12 +224,12 @@
       "label": "Panel .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 3129,
+      "responseMs": 3301,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:31.754Z"
+      "checkedAt": "2026-06-11T19:26:27.558Z"
     },
     {
       "id": "my-ru",
@@ -237,12 +237,12 @@
       "label": "My .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 602,
+      "responseMs": 695,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-06-11T16:45:29.228Z"
+      "checkedAt": "2026-06-11T19:26:24.953Z"
     },
     {
       "id": "api-ru",
@@ -250,12 +250,12 @@
       "label": "API .ru",
       "category": "api",
       "httpCode": 302,
-      "responseMs": 1226,
+      "responseMs": 1296,
       "up": true,
       "redirect": "https://vdsina.ru/",
       "bodySnippet": "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
       "error": null,
-      "checkedAt": "2026-06-11T16:45:29.853Z"
+      "checkedAt": "2026-06-11T19:26:25.554Z"
     }
   ],
   "dns": [
@@ -328,13 +328,13 @@
   ],
   "bgp": {
     "asn": "AS216071",
-    "v4Prefixes": 368,
-    "v6Prefixes": 3,
-    "v4Ips": 94208,
-    "visibility": 327,
-    "totalPeers": 327,
-    "checkedAt": "2026-06-11T16:45:46.151Z",
-    "error": null
+    "v4Prefixes": 0,
+    "v6Prefixes": 0,
+    "v4Ips": 0,
+    "visibility": 0,
+    "totalPeers": 0,
+    "checkedAt": "2026-06-11T19:26:46.855Z",
+    "error": "This operation was aborted"
   },
   "dcHealth": {
     "dc2": {
@@ -355,17 +355,8 @@
     }
   },
   "cpContent": {
-    "raw": "Service availability notice",
-    "updates": [
-      {
-        "type": "title",
-        "text": "Клиентские серверы из Датацентра 3 полностью запущены"
-      },
-      {
-        "type": "detail",
-        "text": "Клиентские серверы, ранее размещенные в Датацентре 3, полностью запущены и доступны. Временные ограничения на некоторое время могут сохраняться только для внешних HDD-дисков и системы создания резервных копий. Также продолжаются работы по восстановлению функционирования панели управления. Мы будем публиковать обновления по мере появления подтвержденной информации."
-      }
-    ],
-    "lastParsed": "2026-06-11T16:45:46.725Z"
+    "raw": "",
+    "updates": [],
+    "lastParsed": "2026-06-11T19:26:47.314Z"
   }
 }
