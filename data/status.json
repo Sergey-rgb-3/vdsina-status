@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-08-15T21:41:53.984Z",
+  "checkedAt": "2026-08-15T21:56:29.453Z",
   "incidentStart": "2026-06-02T13:54:00Z",
   "summary": {
     "endpointsUp": 2,
@@ -16,12 +16,12 @@
       "label": "API Root",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10003,
+      "responseMs": 10014,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.351Z"
+      "checkedAt": "2026-08-15T21:54:06.916Z"
     },
     {
       "id": "api-v1",
@@ -29,12 +29,12 @@
       "label": "API /v1",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10000,
+      "responseMs": 10009,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.429Z"
+      "checkedAt": "2026-08-15T21:54:06.994Z"
     },
     {
       "id": "api-v1-account",
@@ -42,12 +42,12 @@
       "label": "API /v1/account",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10001,
+      "responseMs": 10008,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.431Z"
+      "checkedAt": "2026-08-15T21:54:06.994Z"
     },
     {
       "id": "api-v1-server",
@@ -55,12 +55,12 @@
       "label": "API /v1/server",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10002,
+      "responseMs": 10008,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.433Z"
+      "checkedAt": "2026-08-15T21:54:06.995Z"
     },
     {
       "id": "api-v1-auth",
@@ -68,12 +68,12 @@
       "label": "API /v1/auth",
       "category": "api",
       "httpCode": 0,
-      "responseMs": 10000,
+      "responseMs": 10007,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.433Z"
+      "checkedAt": "2026-08-15T21:54:06.995Z"
     },
     {
       "id": "cp",
@@ -81,12 +81,12 @@
       "label": "CP (Status Page)",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 10001,
+      "responseMs": 10007,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.435Z"
+      "checkedAt": "2026-08-15T21:54:06.996Z"
     },
     {
       "id": "cp-login",
@@ -94,12 +94,12 @@
       "label": "CP Login",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 10000,
+      "responseMs": 10006,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.435Z"
+      "checkedAt": "2026-08-15T21:54:06.996Z"
     },
     {
       "id": "panel",
@@ -107,12 +107,12 @@
       "label": "Panel",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 110,
+      "responseMs": 141,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.546Z"
+      "checkedAt": "2026-08-15T21:53:57.132Z"
     },
     {
       "id": "my",
@@ -120,12 +120,12 @@
       "label": "My (LK)",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 131,
+      "responseMs": 110,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.568Z"
+      "checkedAt": "2026-08-15T21:53:57.102Z"
     },
     {
       "id": "bill",
@@ -133,12 +133,12 @@
       "label": "Billing",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 113,
+      "responseMs": 142,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.551Z"
+      "checkedAt": "2026-08-15T21:53:57.136Z"
     },
     {
       "id": "support",
@@ -146,12 +146,12 @@
       "label": "Support",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 116,
+      "responseMs": 143,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.556Z"
+      "checkedAt": "2026-08-15T21:53:57.139Z"
     },
     {
       "id": "status",
@@ -159,12 +159,12 @@
       "label": "Status (Official)",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 118,
+      "responseMs": 145,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.559Z"
+      "checkedAt": "2026-08-15T21:53:57.143Z"
     },
     {
       "id": "docs",
@@ -172,12 +172,12 @@
       "label": "Docs",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 121,
+      "responseMs": 163,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.563Z"
+      "checkedAt": "2026-08-15T21:53:57.162Z"
     },
     {
       "id": "auth",
@@ -185,12 +185,12 @@
       "label": "Auth",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 124,
+      "responseMs": 147,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.567Z"
+      "checkedAt": "2026-08-15T21:53:57.147Z"
     },
     {
       "id": "www",
@@ -198,12 +198,12 @@
       "label": "WWW (Main)",
       "category": "site",
       "httpCode": 0,
-      "responseMs": 10001,
+      "responseMs": 9999,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": 20,
-      "checkedAt": "2026-08-15T21:39:31.445Z"
+      "checkedAt": "2026-08-15T21:54:07.000Z"
     },
     {
       "id": "vdsina-ru",
@@ -211,12 +211,12 @@
       "label": "VDSina.ru",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 784,
+      "responseMs": 928,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"ru\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Облачные VPS/VDS серверы c Windows и Linux для любых задач. Все функции в один клик: перезагружайте, устанавливайте ОС, управляйте VDS серверами. Мгновенная активация заказанных услуг.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152",
       "error": null,
-      "checkedAt": "2026-08-15T21:39:22.235Z"
+      "checkedAt": "2026-08-15T21:53:57.932Z"
     },
     {
       "id": "panel-ru",
@@ -224,12 +224,12 @@
       "label": "Panel .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 2884,
+      "responseMs": 2898,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:24.330Z"
+      "checkedAt": "2026-08-15T21:53:59.901Z"
     },
     {
       "id": "my-ru",
@@ -237,12 +237,12 @@
       "label": "My .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 319,
+      "responseMs": 627,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-15T21:39:21.766Z"
+      "checkedAt": "2026-08-15T21:53:57.631Z"
     },
     {
       "id": "api-ru",
@@ -250,12 +250,12 @@
       "label": "API .ru",
       "category": "api",
       "httpCode": 302,
-      "responseMs": 783,
+      "responseMs": 886,
       "up": true,
       "redirect": "https://vdsina.ru/",
       "bodySnippet": "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
       "error": null,
-      "checkedAt": "2026-08-15T21:39:22.232Z"
+      "checkedAt": "2026-08-15T21:53:57.893Z"
     }
   ],
   "dns": [
@@ -333,7 +333,7 @@
     "v4Ips": 156416,
     "visibility": 325,
     "totalPeers": 325,
-    "checkedAt": "2026-08-15T21:39:53.398Z",
+    "checkedAt": "2026-08-15T21:54:28.722Z",
     "error": null
   },
   "dcHealth": {
@@ -357,6 +357,6 @@
   "cpContent": {
     "raw": "",
     "updates": [],
-    "lastParsed": "2026-08-15T21:40:03.400Z"
+    "lastParsed": "2026-08-15T21:54:38.724Z"
   }
 }
