@@ -1,10 +1,10 @@
 {
-  "checkedAt": "2026-08-22T16:59:17.557Z",
+  "checkedAt": "2026-08-22T17:16:44.755Z",
   "incidentStart": "2026-06-02T13:54:00Z",
   "summary": {
     "endpointsUp": 5,
     "endpointsTotal": 19,
-    "dnsResolved": 2,
+    "dnsResolved": 3,
     "dnsTotal": 10,
     "bgpV4Prefixes": 611,
     "bgpV6Prefixes": 4
@@ -16,12 +16,12 @@
       "label": "API Root",
       "category": "api",
       "httpCode": 401,
-      "responseMs": 706,
+      "responseMs": 728,
       "up": false,
       "redirect": null,
-      "bodySnippet": "{\"status\":\"error\",\"title\":\"Unauthorized\",\"content\":\"\",\"timestamp\":1787417809.7459829}",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Unauthorized\",\"content\":\"\",\"timestamp\":1787418868.3547709}",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.863Z"
+      "checkedAt": "2026-08-22T17:14:28.443Z"
     },
     {
       "id": "api-v1",
@@ -29,12 +29,12 @@
       "label": "API /v1",
       "category": "api",
       "httpCode": 404,
-      "responseMs": 659,
+      "responseMs": 641,
       "up": false,
       "redirect": null,
-      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787417809.7466431}",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787418868.3472519}",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.868Z"
+      "checkedAt": "2026-08-22T17:14:28.439Z"
     },
     {
       "id": "api-v1-account",
@@ -42,12 +42,12 @@
       "label": "API /v1/account",
       "category": "api",
       "httpCode": 404,
-      "responseMs": 696,
+      "responseMs": 617,
       "up": false,
       "redirect": null,
-      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787417809.7918749}",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787418868.315701}",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.904Z"
+      "checkedAt": "2026-08-22T17:14:28.422Z"
     },
     {
       "id": "api-v1-server",
@@ -55,12 +55,12 @@
       "label": "API /v1/server",
       "category": "api",
       "httpCode": 404,
-      "responseMs": 688,
+      "responseMs": 610,
       "up": false,
       "redirect": null,
-      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787417809.783715}",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787418868.309938}",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.896Z"
+      "checkedAt": "2026-08-22T17:14:28.421Z"
     },
     {
       "id": "api-v1-auth",
@@ -68,12 +68,12 @@
       "label": "API /v1/auth",
       "category": "api",
       "httpCode": 404,
-      "responseMs": 700,
+      "responseMs": 639,
       "up": false,
       "redirect": null,
-      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787417809.796587}",
+      "bodySnippet": "{\"status\":\"error\",\"title\":\"Not Found\",\"content\":\"Page not found.\",\"timestamp\":1787418868.349144}",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.910Z"
+      "checkedAt": "2026-08-22T17:14:28.439Z"
     },
     {
       "id": "cp",
@@ -81,12 +81,12 @@
       "label": "CP (Status Page)",
       "category": "panel",
       "httpCode": 200,
-      "responseMs": 656,
+      "responseMs": 613,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta name=viewport content=\"width=device-width,initial-scale=1\"><title>Control panel</title><link rel=apple-touch-icon sizes=152x152 href=/static/img/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/static/img/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/static/img/favicon/favicon-16x16.png><link rel=manifest href=/static/img/favicon/site.web",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.868Z"
+      "checkedAt": "2026-08-22T17:14:28.422Z"
     },
     {
       "id": "cp-login",
@@ -94,12 +94,12 @@
       "label": "CP Login",
       "category": "panel",
       "httpCode": 200,
-      "responseMs": 701,
+      "responseMs": 615,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content=\"IE=edge\"><meta name=viewport content=\"width=device-width,initial-scale=1\"><title>Control panel</title><link rel=apple-touch-icon sizes=152x152 href=/static/img/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/static/img/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/static/img/favicon/favicon-16x16.png><link rel=manifest href=/static/img/favicon/site.web",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:49.912Z"
+      "checkedAt": "2026-08-22T17:14:28.422Z"
     },
     {
       "id": "panel",
@@ -107,12 +107,12 @@
       "label": "Panel",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 104,
+      "responseMs": 204,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.315Z"
+      "checkedAt": "2026-08-22T17:14:28.006Z"
     },
     {
       "id": "my",
@@ -120,12 +120,12 @@
       "label": "My (LK)",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 111,
+      "responseMs": 137,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.322Z"
+      "checkedAt": "2026-08-22T17:14:27.940Z"
     },
     {
       "id": "bill",
@@ -133,12 +133,12 @@
       "label": "Billing",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 119,
+      "responseMs": 229,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.331Z"
+      "checkedAt": "2026-08-22T17:14:28.033Z"
     },
     {
       "id": "support",
@@ -146,12 +146,12 @@
       "label": "Support",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 188,
+      "responseMs": 299,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.401Z"
+      "checkedAt": "2026-08-22T17:14:28.104Z"
     },
     {
       "id": "status",
@@ -159,12 +159,12 @@
       "label": "Status (Official)",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 146,
+      "responseMs": 266,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.359Z"
+      "checkedAt": "2026-08-22T17:14:28.073Z"
     },
     {
       "id": "docs",
@@ -172,12 +172,12 @@
       "label": "Docs",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 228,
+      "responseMs": 366,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.442Z"
+      "checkedAt": "2026-08-22T17:14:28.174Z"
     },
     {
       "id": "auth",
@@ -185,12 +185,12 @@
       "label": "Auth",
       "category": "infra",
       "httpCode": 0,
-      "responseMs": 269,
+      "responseMs": 298,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:49.484Z"
+      "checkedAt": "2026-08-22T17:14:28.107Z"
     },
     {
       "id": "www",
@@ -198,12 +198,12 @@
       "label": "WWW (Main)",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 936,
+      "responseMs": 819,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Cloud VPS/VDS servers with Windows and Linux for any task. All functions in one click: reboot, install OS, manage VDS servers. Instant activation of ordered services.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152x152\" href=\"/apple",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:50.152Z"
+      "checkedAt": "2026-08-22T17:14:28.631Z"
     },
     {
       "id": "vdsina-ru",
@@ -211,12 +211,12 @@
       "label": "VDSina.ru",
       "category": "site",
       "httpCode": 200,
-      "responseMs": 1337,
+      "responseMs": 1141,
       "up": true,
       "redirect": null,
       "bodySnippet": "<!DOCTYPE html>\r\n<html dir=\"ltr\" lang=\"ru\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\">\r\n\t\t<!--[if IE]><meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"><![endif]-->\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n\t\t<meta name=\"description\" content=\"Облачные VPS/VDS серверы c Windows и Linux для любых задач. Все функции в один клик: перезагружайте, устанавливайте ОС, управляйте VDS серверами. Мгновенная активация заказанных услуг.\">\r\n\t\t<link rel=\"apple-touch-icon\" sizes=\"152",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:50.554Z"
+      "checkedAt": "2026-08-22T17:14:28.953Z"
     },
     {
       "id": "panel-ru",
@@ -224,12 +224,12 @@
       "label": "Panel .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 3414,
+      "responseMs": 3006,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:52.631Z"
+      "checkedAt": "2026-08-22T17:14:30.818Z"
     },
     {
       "id": "my-ru",
@@ -237,12 +237,12 @@
       "label": "My .ru",
       "category": "panel",
       "httpCode": 0,
-      "responseMs": 840,
+      "responseMs": 606,
       "up": false,
       "redirect": null,
       "bodySnippet": "",
       "error": "fetch failed",
-      "checkedAt": "2026-08-22T16:56:50.057Z"
+      "checkedAt": "2026-08-22T17:14:28.419Z"
     },
     {
       "id": "api-ru",
@@ -250,20 +250,22 @@
       "label": "API .ru",
       "category": "api",
       "httpCode": 302,
-      "responseMs": 1567,
+      "responseMs": 1096,
       "up": true,
       "redirect": "https://vdsina.ru/",
       "bodySnippet": "<html>\r\n<head><title>302 Found</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>302 Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
       "error": null,
-      "checkedAt": "2026-08-22T16:56:50.785Z"
+      "checkedAt": "2026-08-22T17:14:28.911Z"
     }
   ],
   "dns": [
     {
       "domain": "api.vdsina.com",
-      "resolved": false,
-      "ips": [],
-      "error": "NXDOMAIN or timeout"
+      "resolved": true,
+      "ips": [
+        "5.252.32.139"
+      ],
+      "error": null
     },
     {
       "domain": "panel.vdsina.com",
@@ -331,7 +333,7 @@
     "v4Ips": 156416,
     "visibility": 328,
     "totalPeers": 328,
-    "checkedAt": "2026-08-22T16:57:27.737Z",
+    "checkedAt": "2026-08-22T17:14:53.346Z",
     "error": null
   },
   "dcHealth": {
@@ -355,6 +357,6 @@
   "cpContent": {
     "raw": "Control panel",
     "updates": [],
-    "lastParsed": "2026-08-22T16:57:28.322Z"
+    "lastParsed": "2026-08-22T17:14:53.792Z"
   }
 }
